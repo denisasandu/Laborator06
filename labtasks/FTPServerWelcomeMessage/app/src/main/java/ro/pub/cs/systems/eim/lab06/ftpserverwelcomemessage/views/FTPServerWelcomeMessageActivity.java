@@ -38,5 +38,6 @@ public class FTPServerWelcomeMessageActivity extends AppCompatActivity {
         displayWelcomeMessageButton.setOnClickListener(buttonClickListener);
 
         welcomeMessageTextView = (TextView)findViewById(R.id.welcome_message_text_view);
+        welcomeMessageTextView.setText("");
     }
 }
